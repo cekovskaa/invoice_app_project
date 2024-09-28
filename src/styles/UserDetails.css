@@ -1,0 +1,36 @@
+/* UserDetails.css */
+
+.form-control.mt-2 {
+  margin-top: 1em;
+}
+
+.user-details-container h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.user-details-container label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.user-details-container input,
+.user-details-container select {
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+label.small-label {
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px; /* Add space between label and input field */
+}
+
+
+  
+
+  

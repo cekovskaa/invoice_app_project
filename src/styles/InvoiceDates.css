@@ -1,0 +1,24 @@
+.invoice-dates {
+  display: flex;
+  flex-direction: row; /* Aligns the date fields horizontally */
+  gap: 20px; /* Adds space between the two date fields */
+  margin-top: 20px; /* Adjusts space between this section and components above */
+}
+
+.invoice-date,
+.due-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice-date label,
+.due-date label {
+  margin-bottom: 5px; /* Adds space between label text and input field */
+}
+
+.invoice-date input[type="date"],
+.due-date input[type="date"] {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc; /* Styles for date input fields */
+}

@@ -1,0 +1,44 @@
+#root {
+  max-width: 1000px; 
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+
+.invoice-editor {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.logo-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; 
+  padding-right: 60px; 
+}
+
+.title-section {
+  flex: 1;
+  text-align: left; /* Aligns the "Invoice" text to the left */
+}
+
+
+.content {
+  display: flex; 
+  gap: 20px;
+  width: 100%; 
+  justify-content: center; 
+}
+
+.section {
+  flex: 1; 
+}

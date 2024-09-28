@@ -1,0 +1,10 @@
+/* components/InvoiceNumber.css */
+.invoice-number-container {
+    margin-top: 20px; /* Adjust top margin as needed */
+    text-align: center; /* Centers the invoice number */
+  }
+  
+  .invoice-number-container h2 {
+    font-size: 1.5em; /* Adjust font size as needed */
+  }
+  

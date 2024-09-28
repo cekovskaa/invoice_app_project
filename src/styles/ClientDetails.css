@@ -1,0 +1,28 @@
+/* ClientDetails.css */
+
+.client-details-container h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .client-details-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .client-details-container input,
+  .client-details-container select {
+    width: 100%;
+    margin-top: 0.5em;
+  }
+  
+  label.small-label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px; /* Add space between label and input field */
+  }
+  

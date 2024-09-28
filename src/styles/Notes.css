@@ -1,0 +1,19 @@
+.notes-section {
+    margin-top: 20px;
+  }
+  
+  .notes-section h2 {
+    font-size: 18px; /* Smaller font size for the heading */
+    margin-bottom: 10px;
+  }
+  
+  .notes-section textarea {
+    width: 100%;
+    max-width: 400px; /* Smaller width for the text area */
+    height: 100px; /* Smaller height for the text area */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
